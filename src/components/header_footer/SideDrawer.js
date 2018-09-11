@@ -12,7 +12,28 @@ const SideDrawer = (props) => {
         open={props.open}
         onClose={() => props.onClose(false)}
     >
-        Drawer
+        <List component = 'nav'>
+            <ListItem button>
+                Event Starts in
+            </ListItem>
+
+            <ListItem button>
+                Event Info
+            </ListItem>
+
+            <ListItem button>
+                Highlights
+            </ListItem>
+
+            <ListItem button>
+                Pricing
+            </ListItem>
+
+            <ListItem button>
+                Location
+            </ListItem>
+        
+        </List>
     </Drawer>
   )
 }
