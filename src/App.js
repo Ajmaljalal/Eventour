@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './resources/styles.css';
 import Header from './components/header_footer/Header';
 import Featured from './components/featured';
+import EventInfo from './components/venueInfo';
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
       <div className="App" style={{height: '1500px', background: 'cornflowerblue'}}>
         <Header/>
         <Featured/>
+        <EventInfo/>
       </div>
     );
   }
