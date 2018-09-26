@@ -9,12 +9,12 @@ const CustomButton = (props) => {
             variant='contained'
             size='small'
             style={{
-                background: 'red',
-                color: 'white' 
+                background: props.bck,
+                color: props.color 
             }}
         >
             <img src={ticketIcon} className='iconImage' alt='icon_button' />
-            {props.title}       
+            {props.text}       
         </Button>
     );
 };
